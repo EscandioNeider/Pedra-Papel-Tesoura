@@ -1,6 +1,6 @@
 # 🎮 **PEDRA, PAPEL, TESOURA!**  
 O famigerado game agora está aqui, mas feito por mim!  
-Divirta-se com este meu projeto através deste link: ()
+Divirta-se com este meu projeto através deste link: (https://escandioneider.github.io/Pedra-Papel-Tesoura/)
 
 ## ✨ **Futuras Melhorias**  
 -> Responsividade;  
