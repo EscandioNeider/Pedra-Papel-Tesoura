@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="geral.css">
+    <script src="script-tradicional.js"></script>
+    <title>Tradicional</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navegacao">
+                <li><a href="index.html" class="logo">PEDRA, PAPEL, TESOURA!</a></li>
+                <li><a href="tradicional.html"> Tradicional </a></li>
+                <li><a href="duelo-dos-nove.html">Duelo dos Nove</a></li>
+                <li><a href="#"> </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="geral">
+            <h1 class="titulo">Pedra, Papel e Tesoura! - Tradicional</h1>
+            <h3 class="subtitulo">Escolha sua jogada e teste suas habilidades no clássico jogo de pedra, papel e tesoura!<h3>
+          
+            <div class="botoes">
+                <!-- Botão Pedra -->
+                <button onclick="jogar('Pedra')">
+                    <img src="img/pedra.svg" width="50px">
+                    <span>Pedra</span>
+                </button>
+        
+                <!-- Botão Papel -->
+                <button onclick="jogar('Papel')">
+                    <img src="img/papel.svg" width="50px">
+                    <span>Papel</span>
+                </button>
+        
+                <!-- Botão Tesoura -->
+                <button onclick="jogar('Tesoura')">
+                    <img src="img/tesoura.svg"  width="50px">
+                    <span>Tesoura</span>
+                </button>
+            </div>
+        <div id="resultado" style="font-size: 15px;"></div>
+
+            <p>Jogador: <span id="pontuacaoJogador">0</span> | Computador: <span id="pontuacaoComputador">0</span></p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados à <a href="https://github.com/EscandioNeider">EscandioNeider</a></p>
+    </footer>
+
+</body>
+</html>

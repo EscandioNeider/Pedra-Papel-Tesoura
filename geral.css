@@ -1,0 +1,147 @@
+/* DECLARAÇÕES GLOBAIS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3C3D40;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #D7D7D9;
+    line-height: 1.6;
+}
+
+h1, p {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #D7D7D9;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #D7D7D9;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #212226;
+    padding: 10px 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color: #D7D7D9;
+    text-decoration: none;
+}
+
+.navegacao {
+    display: flex;
+    gap: 15px; 
+}
+
+.navegacao li {
+    list-style: none;
+}
+
+.navegacao li a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #D7D7D9;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navegacao li a:hover {
+    background-color: #4d618cf6;
+    color: #101A2F;
+    border-radius: 5px;
+}
+
+/* ESTILO GERAL */
+.titulo, .subtitulo{
+    text-align: center;
+}
+
+.geral {
+    justify-content: center;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 16px;
+    margin: 10px;
+    background-color: #7a6f6f1c;
+    border: 1px solid #797676b4;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: rgba(224, 224, 224, 0.281);
+    transform: scale(1.1);
+}
+
+/* MENUS */
+
+.botao2, #botaoRegra {
+    font-size: 35px;
+    margin: 10px;
+    background-color: #58555094;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+span{
+color: #babec2;;
+}
+
+#resultado {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #babec2;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #212226;
+    color: #babec2;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #9FA3A6;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color:#babec2;
+}
