@@ -28,4 +28,4 @@ Irei continuar trabalhando nesse projeto para trazer mais melhorias e melhorar a
 ## 🏷 Tags:
 `#PedraPapelTesoura`  `#JogoWeb`  `#JavaScript`  `#HTMLCSS`  `#GameDevelopment` 
 
-🔗 Visite meu projeto! (https://github.com/EscandioNeider/Pedra-Papel-Tesoura)
+🔗 Visite meu projeto! (https://escandioneider.github.io/Pedra-Papel-Tesoura/)
