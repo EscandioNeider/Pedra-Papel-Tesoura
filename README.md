@@ -1,4 +1,4 @@
-# ⛰️🪨📄✂️ Pedra, Papel e Tesoura!
+# ⛰️📄✂️ Pedra, Papel e Tesoura!
 
 Este projeto é uma variação feita por mim do jogo, mas com uma versão diferente: "Duelo dos Nove"!  
 
