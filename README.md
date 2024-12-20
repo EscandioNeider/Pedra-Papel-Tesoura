@@ -20,10 +20,10 @@ Irei continuar trabalhando nesse projeto para trazer mais melhorias e melhorar a
    
 3. O vencedor será definido de acordo com as regras do jogo, com um resultado mostrado logo após.
 
-## ✨ **Futuras Melhorias**  
--> Responsividade;  
--> Limite de placar (ex: Quem ganhar 5 vezes, vence e o jogo reinicia);  
+## ✨ **Melhorias**    
 -> Correção de erros na página do Duelo dos Nove;
+-> Implementação do Iframe;
+-> Toques no CSS dos resultados;
 
 ## 🏷 Tags:
 `#PedraPapelTesoura`  `#JogoWeb`  `#JavaScript`  `#HTMLCSS`  `#GameDevelopment` 

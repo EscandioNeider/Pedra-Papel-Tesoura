@@ -18,13 +18,13 @@ h1, p {
 
 h1 {
     font-size: 2.5rem;
-    color: #D7D7D9;
+    color: #ffffff;
 }
 
 p {
     font-size: 1.2rem;
     margin-top: 10px;
-    color: #D7D7D9;
+    color: #ffffff;
 }
 
 /* CABEÇALHO */
@@ -72,16 +72,10 @@ header {
 }
 
 .geral-ddn, .geral-trad{
-    width: 800px;
-    height: 300px;
+    display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.geral-ddn .titulo,
-.geral-trad .titulo{
-    font-size: 25px;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .geral-ddn .subtitulo,
@@ -90,7 +84,6 @@ header {
     font: 100;
     justify-content: center;
 }
-
 
 .botoes {
     display: flex;
@@ -142,6 +135,22 @@ color: #babec2;;
     color: #babec2;
 }
 
+/* ---GERAIS--- */
+.escolha,.pontos, .empate{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.vitoria {
+    color: #ffb900;
+    font-weight: bold;
+}
+
+.derrota {
+    color: red;
+    font-weight: bold;
+}
+
 /* RODAPÉ */
 footer {
     background-color: #212226;
@@ -157,7 +166,7 @@ footer p {
 }
 
 footer a {
-    color: #9FA3A6;
+    color: #dec7e1b3;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -167,9 +176,9 @@ footer a:hover {
 }
 
 /* RESPONSIVIDADE */
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
     .geral-ddn, .geral-trad {
-        width: 90%;
+        width: 100%;
         transform: translate(0, 0);
     }
 
@@ -182,7 +191,7 @@ footer a:hover {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     header {
         flex-direction: column;
         align-items: flex-start;
